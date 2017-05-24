@@ -1,6 +1,6 @@
 # works Demo Run
 	#framework 地址
-	https://github.com/wobase/pworks
+		https://github.com/wobase/pworks
 	
 	#PHP版本检查 要求PHP 5.3+
 		查看版本命令 php -v
@@ -15,7 +15,7 @@
 		; Windows: "\path1;\path2"
 		include_path = ".;E:\phpstudy\WWW\pworks\pear"
 
-	#重新覆盖 pear下的pworks
+	#重新用pworks.20170524.tar.gz的pworks覆盖 pear下的pworks
 
 	#修改pworks.xml <action type="rest" url="/ticket" method="post" id="ticket.Create"/>  的method 为get 
 		<action type="rest" url="/ticket" method="get" id="ticket.Create"/> 
