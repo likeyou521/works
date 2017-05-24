@@ -1,4 +1,7 @@
 # works Demo Run
+	#framework 地址
+	https://github.com/wobase/pworks
+	
 	#PHP版本检查 要求PHP 5.3+
 		查看版本命令 php -v
 
@@ -17,7 +20,7 @@
 	#修改pworks.xml <action type="rest" url="/ticket" method="post" id="ticket.Create"/>  的method 为get 
 		<action type="rest" url="/ticket" method="get" id="ticket.Create"/> 
 
-	#重写规则  
+	#demo目录下新建重写规则重写规则  
 		# 开启 rewrite 功能
 		Options +FollowSymlinks
 		RewriteEngine on
