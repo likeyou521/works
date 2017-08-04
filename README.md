@@ -26,5 +26,5 @@
 		RewriteEngine on
 
 		# 重写规则
-	#*****	Creating a new branch is quick AND simple.
+		Read
 		RewriteRule ^ticket$   index\.php\?action=restful&url=$1&method=%{REQUEST_METHOD} [QSA,L]
